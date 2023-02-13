@@ -220,6 +220,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         hero.vy = -100
     } else {
         start()
+        sprites.destroy(press)
         st = 1
     }
 })
